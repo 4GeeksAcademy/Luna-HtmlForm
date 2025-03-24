@@ -1,0 +1,63 @@
+:root {
+    --bs-body-bg: #E1CEF1;
+    --bs-heading-color: #7412ad;
+    --bs-primary: #aa68dd;
+    --bs-primary-hover: #9051b6;
+    --bs-secondary: #c9a3e8 ;
+    --bs-light: #f4e7fa;
+    --bs-danger: #95c97367;
+  }
+  
+  body {
+    background-color: var(--bs-body-bg);
+    
+  }
+  
+  h2 {
+    color: var(--bs-heading-color);
+  }
+  
+  .btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--bs-primary-hover);
+    border-color: var(--bs-primary-hover);
+  }
+  .btn-secondary {
+    background-color: #923cd4 !important;
+    border: #6b2f93 ;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #6b2f93 !important;
+    border: #6b2f93 ;
+  }
+  
+  .bg-secondary {
+    background-color: var(--bs-secondary) !important;
+    ;
+  }
+  
+  .bg-light {
+    background-color: var(--bs-light) !important;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 0.2rem;
+    border-color: rgba(178, 134, 217, 0.5);
+  }
+  
+ .formulary {
+    background-color: #d6b9ed !important;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: rgba(178, 134, 217, 0.5);
+ }
+ .bg-danger {
+    background-color: var(--bs-danger) !important;
+    border-color: #9bff77b4;
+    color: #3d7619;
+  }
